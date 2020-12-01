@@ -33,8 +33,8 @@ function Login() {
                     
                     <h5>email</h5>
                     <input className="form__name"
-                        onChange={event => setEmails(event.target.value)}
                         value={emails}
+                        onChange={event => setEmails(event.target.value)}
                         type="email"
                         id="email"
                     />
@@ -46,7 +46,7 @@ function Login() {
                         id="password"
                     />
                     
-                    <button onClick={onClick}>Sign In</button>
+                    <button type="submit" onClick={onClick}>Sign In</button>
 
                 </form>
             </div>

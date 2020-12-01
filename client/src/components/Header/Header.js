@@ -12,7 +12,7 @@ function Header() {
                 />
             </div>
             <div className="header__bottom">
-                <h2 className="header__text">All the news... from all angles</h2>
+                <p className="header__text">All the news... from all angles</p>
             </div>
         </div>
     )

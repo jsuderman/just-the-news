@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
+import "./Register.css";
 
 function Authentication() {
 
@@ -28,6 +30,7 @@ function Authentication() {
 
     return (
         <div>
+            <Link to="/login">Back to Home</Link>
             <div className="form">
                 <form>
                     <h5>Name</h5>
@@ -58,7 +61,7 @@ function Authentication() {
                         type="password"
                         id="password2"
                     />
-                    <button onClick={onClick}>Register</button>
+                    <button onSubmit={onClick} type="submit">Register</button>
 
                 </form>
             </div>
